@@ -1,0 +1,72 @@
+body {
+  background-color: #671eba;
+}
+header {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.bar {
+  border: 5px solid black;
+  margin: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+a:hover {
+  text-decoration: underline;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: rgb(63, 86, 155);
+}
+.link1 {
+  border: 2px solid black;
+  padding: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.link2 {
+  border: 2px solid black;
+  padding: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.link3 {
+  border: 2px solid black;
+  padding: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.project_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: rgb(69, 127, 146);
+}
+.project_2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: rgb(69, 127, 146);
+}
+.project_3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: rgb(69, 127, 146);
+}
+
+.project_text {
+  border: 4px solid rgb(38, 9, 66);
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  background-color: lightgray;
+}
